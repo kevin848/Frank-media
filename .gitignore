@@ -1,0 +1,21 @@
+﻿# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Build outputs
+frontend/dist/
+backend/dist/
+backend/data/*.sqlite
+backend/data/*.sqlite-*
+
+# Environment files
+.env
+*.env.local
+frontend/.env
+backend/.env
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
